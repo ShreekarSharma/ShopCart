@@ -16,7 +16,7 @@ fetch(`https://dummyjson.com/products/${productId}`)
     <div class="col-12 col-md-6">
       <p class="fst-italic">Category: ${product.category}</p>
       <h1>${product.title}</h1>
-      <p>${product.rating}/5</p>
+      <p><i class="bi bi-star-fill"></i> ${product.rating}/5</p>
       <p class="display-5">$${product.price}</p>
       <p class="fs-5">${product.description}</p>
       <div class="buttons">
